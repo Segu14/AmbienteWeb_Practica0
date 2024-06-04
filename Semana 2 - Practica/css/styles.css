@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    margin-top: -700px;
+}
+
+.donuts{
+    transform: rotate(270deg);
+    width: 854.99px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.title h1 {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-weight: bolder;
+    color: #fcba03;
+}
+
+.ourmenu{
+    font-size:22px;
+    text-align: center;
+    margin-top: -350px;
+}
+
+.ourmenu p, .specprom p, .video p{
+    font-family: Arial;
+    text-align: justify;
+    padding: 120px;
+    margin-top: -140px;
+    font-size: 18px;
+}
+
+.ourmenu h3, .specprom h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding: 120px;
+    margin-top: -250px;
+}
+
+.ourmenu ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 120px;
+    margin-top: -250px;
+    margin-left: 1.35%;
+}
+
+.donut_menu p{
+    margin-top: -112px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: -120px;
+}
+
+.sugardonut{
+    width: 300px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+.chocdonut {
+    width: 360px;
+    margin-top: -160px;
+    margin-left: -30px;
+}
+
+.custdonut {
+    width: 460px;
+    margin-top: -230px;
+    margin-left: -85px;
+    margin-bottom: -230px;
+}
+
+.specprom{
+    font-size:22px;
+    text-align: center;
+}
+
+.disccdonuts {
+    width: 1275px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top:-120px;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.specprom h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 140px;
+    position: absolute;
+    left: 50%;
+    margin-top: -110px;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+.pasos_descuento {
+    margin-top: 140px;
+}
+
+.pasos_descuento ol{
+    margin-top: -120px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.pasos_descuento h3 {
+    margin-bottom: -220px;
+}
+
+.video {
+    font-size:22px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video iframe{
+    margin-top: -100px;
+    margin-left: 435px;
+    border-radius: 6px;;
+}
+
+
+
+.wrapper{
+    margin-left: 11%;
+    margin-top: -428px;
+
+    padding: 0;
+    box-sizing: border-box;
+    
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+    width: 350px;
+    font-family: Arial;
+
+    height: 422px;
+  }
+  .wrapper h2{
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .wrapper form{
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  .wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input-box input, 
+  form .input-box textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus,
+  .input-box input:valid,
+  .input-box textarea:focus,
+  .input-box textarea:valid{
+    border-color: #E21C6B;
+  }
+  form .policy{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+  }
+  form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input-box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #E21C6B;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .input-box.button input:hover,
+  .input-box.button textarea:hover{
+    background: #E21C6B;
+  }
+  form .text h3{
+   color: #333;
+   width: 100%;
+   text-align: center;
+  }
+  form .text h3 a{
+    color: #E21C6B;
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
+
+  .input-box textarea{
+    text-align: justify;
+    font-family: Arial;
+    overflow: auto;
+    resize: none;
+  }
+
+  .input-box textarea::placeholder{
+    padding-top: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  footer {
+    margin-top: 50px;
+    font-family: Arial;
+    background-color: #181818;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+  }
+
+  .qr{
+    text-align: center;
+  }
+
+  .qr h2{
+    font-size: 42px;
+    margin-bottom: -10px;
+  }
+
+  .qr img{
+    margin-top: 10px;
+    margin-bottom: -10px;;
+  }
+
+  .qr p{
+    font-family: Arial;
+  }

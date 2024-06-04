@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Deliciosas donas de todos los colores y sabores que te podás imaginar, solo en la U Fidélitas.">
+        <title> UFIDONAS </title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <header class="title">
+            <img src="img/donuts_bkgrnd.jpg" alt="donuts" class="donuts">
+            <div class="brand"> 
+                <h1 style="color: black; margin-left: 4px;">UFIDÓNAS</h1>
+                <h1>UFIDÓNAS</h1>
+            </div>
+        </header>
+
+        <section>
+            <div class="ourmenu">
+                <h2>Nuestro Menú</h2>
+                <p>
+                    ¡Bienvenidos a <b>UFIDÓNAS!</b> Nuestro restaurante ofrece una <u>variedad de donas que 
+                        combinan clásicos favoritos con innovaciones únicas</u>. Disfruta de donas glaseadas 
+                        tradicionales, de azúcar y canela, chocolate, rellenas de crema pastelera, jalea de 
+                        fresa y Nutella.
+                </p>
+                <h3>Explora Nuestras Deliciosas Donas</h3>
+
+                <div class="donut_menu">
+                    <ul>
+                        <li>Dona de Azúcar tradicional</li>
+                            <p>Deliciosa dona tradicional cubierta de glaseado azucarado con chispas de colores.</p>
+                            <img class="sugardonut" src="img/sugar_don.png" alt="sugardonut">
+                        <li>Dona de Chocolate</li>
+                            <p>Dona cubierta de glaseado de chocolate y chispas de colores, una delicia que no te podés perder.</p>
+                            <img class="chocdonut" src="img/choc_don.webp" alt="chocdonut">
+                        <li>Dona Rellena Crema Pastelera</li>
+                            <p>Dona rellena de crema pastelera del hogar con receta original francesa, no te quedés sin la tuya.</p>
+                            <img class="custdonut" src="img/cust_don.png" alt="custdonut">
+                    </ul>
+                </div>
+            </div>
+
+            <div class="specprom">
+                <h2>Promociones Especiales</h2>
+                <p>
+                    En <b>UFIDÓNAS</b>, siempre hay una razón para sonreír, especialmente los <u>lunes a las 
+                        6 de la tarde</u>, cuando ofrecemos <b>promociones exclusivas</b>. Es nuestro momento 
+                        de la semana dedicado a consentir a nuestros clientes con <b>descuentos especiales y 
+                        ofertas irresistibles</b> en todas nuestras deliciosas donas. ¡No te pierdas esta 
+                        oportunidad de disfrutar de tus donas favoritas a precios aún más accesibles y comenzar 
+                        la semana con el pie derecho!
+                </p>
+
+                <img class="disccdonuts" src="img/2x1donuts.jpg" alt="2x1donuts">
+                <h4 style="color: #fcba03; margin-left: 4px;">2X1</h4>
+                <h4>2X1</h4>
+
+                <div class="pasos_descuento">
+
+                    <h3>¿Querés ganarte una dona gratis en tu próxima visita a UFIDÓNAS?</h3>
+
+                    <p>Sigue los siguientes pasos y llevate una dona extra en tu próxima compra en <strong>UFIDÓNAS</strong>.</p>
+
+                    <ol type="1">
+                        <li>Rellena el <a href="#form">formulario</a> que encontrarás más abajo y asegúrate de <u>guardar tu código QR</u>.</li>
+                        <li>Visita tu local de <strong>UFIDÓNAS</strong> más cercano.</li>
+                        <li>Pide tu dona preferida.</li>
+                        <li>Aségurate de mostrarle  el código QR que generaste a el/la encargado/a de atenderte el día de tu visita.</li>
+                        <li>Repite el paso 3.</li>
+                        <li>Disfruta de tu dona <strong>GRATIS</strong>!</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="video">
+                <h2>¿Qué esperas?</h2>
+
+                <p>Puedes llevarte una dona gratis en tu próxima visita en <strong>UFIDÓNAS</strong>. 
+                    ¡Solo necesitamos que nos dias cuál es tu número de cédula y nos cuentes cuál es
+                    tu dona favorita y por qué! ¿Aún no sabes qué dona llevarte? Nosotros te ayudamos. 
+                    <br><br>
+                    Desde su primera aparición a mitades del sigo 19 en Nueva York, Estados Unidos, a lo largo 
+                    de los años las donas han acogido todo tipo de colores, sabores, tamaños y formas, si aún 
+                    no sabes que tipo de dona te inspira a pasar a nuestros locales, te invitamos a ver este 
+                    video sobre cada dona preferida de cada estado de los Estados Unidos.
+                </p>
+
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/S4T0VVNm07o?si=cuio2smEWXa1p0Tr" 
+                title="50 Donas" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="wrapper" id="form">
+                <h2>Recibe tu segunda dona llenando el formulário.</h2>
+                <form action="QR.html">
+                  <div class="input-box">
+                    <input type="text" placeholder="Ingresa tu número de cédula." required>
+                  </div>
+                  <div class="input-box">
+                    <textarea name="favdonut" id="favdonut" required 
+                    placeholder="Ingresa tu dona favorita."></textarea>
+                  </div>
+                  <div class="policy">
+                    <input type="checkbox" required>
+                    <h3>Acepto los terminos y condiciones</h3>
+                  </div>
+                  <div class="input-box button">
+                    <input type="Submit" value="Generar QR">
+                  </div>
+                </form>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&copy;UFIDÓNAS Sebastián Segura Sáenz - 2024</p>
+        </footer>
+    </body>
+</html>
